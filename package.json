@@ -1,0 +1,32 @@
+{
+  "name": "discord-dragon",
+  "version": "1.0.0",
+  "description": "A discord.js framework",
+  "main": "./src/index.js",
+  "types": "./src/index.d.ts",
+  "scripts": {
+    "test": "npm run lint",
+    "lint": "eslint ./src && tslint ./src/index.d.ts",
+    "docs": "docgen --source src --custom docs/index.yml --output docs/docs.json"
+  },
+  "devDependencies": {
+    "@types/node": "^10.14.4",
+    "discord.js-docgen": "discordjs/docgen",
+    "eslint": "^6.8.0",
+    "jsdoc": "^3.5.5",
+    "tslint": "^5.15.0",
+    "tslint-config-typings": "^0.3.1",
+    "typescript": "^3.4.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Zaxerone/discord-dragon.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Zaxerone/discord-dragon/issues"
+  },
+  "homepage": "https://github.com/Zaxerone/discord-dragon",
+  "author": "Zaxerone",
+  "license": "MIT",
+  "dependencies": {}
+}
