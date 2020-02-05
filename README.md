@@ -1,4 +1,4 @@
-<div align="center">
+<div>
   <br />
   <h1>Discord-Dragon</h1>
   <br />
